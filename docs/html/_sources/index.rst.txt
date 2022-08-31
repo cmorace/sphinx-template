@@ -8,15 +8,18 @@ Welcome to sphinx-template's documentation!
 
 This is a template sphinx project configured to build a static site that is compatible with Github Pages.
 
+To build, run ``make html`` from the root directory.
+
 Sphinx uses restructured text, a simple but powerful markup language.
 
-Here is some useful syntax:
-
 - create an external `link <https://www.python.org>`_
+- link to another .rst :ref:`Notes`
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   notes
 
 
 
